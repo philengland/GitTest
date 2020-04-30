@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-	Comment="MadCap HTML5 Target"
-	Type="WebHelp2"
-	Destinations=""
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
   ShowMadCapBacklink="true"
-  GlossaryTermConversion="marked">
+  GlossaryTermConversion="marked"
+  OutputAnalyticsServer="https://madcloudapitest.azurewebsites.net/"
+  OutputAnalyticsLicenseId="3850"
+  LiveHelpType="Central"
+  OutputAnalyticsKey="5d59faaa-8fd8-4063-b3b8-409228e2242b">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true"/>
+    GenerateGlossaryProxy="true" />
 </CatapultTarget>
